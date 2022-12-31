@@ -1,0 +1,50 @@
+{
+	"请求头 (679 字节)": {
+		"headers": [
+			{
+				"name": "Accept",
+				"value": "application/json, text/javascript, */*; q=0.01"
+			},
+			{
+				"name": "Accept-Encoding",
+				"value": "gzip, deflate"
+			},
+			{
+				"name": "Accept-Language",
+				"value": "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+			},
+			{
+				"name": "Connection",
+				"value": "keep-alive"
+			},
+			{
+				"name": "Content-Length",
+				"value": "1340"
+			},
+			{
+				"name": "Content-Type",
+				"value": "application/x-www-form-urlencoded; charset=UTF-8"
+			},
+			{
+				"name": "Host",
+				"value": "zfcg.czt.fujian.gov.cn"
+			},
+			{
+				"name": "Origin",
+				"value": "http://zfcg.czt.fujian.gov.cn"
+			},
+			{
+				"name": "Referer",
+				"value": "http://zfcg.czt.fujian.gov.cn/gpms/expertLeave/beforeDo"
+			},
+			{
+				"name": "User-Agent",
+				"value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0"
+			},
+			{
+				"name": "X-Requested-With",
+				"value": "XMLHttpRequest"
+			}
+		]
+	}
+}
