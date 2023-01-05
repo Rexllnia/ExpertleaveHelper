@@ -4,10 +4,10 @@ import re
 import datetime 
 import sys
 from time import strftime
-
+from image2str import *
 cookies = {
-'ace_settings':'%7B%22sidebar-collapsed%22%3A-1%7D',
-'JSESSIONID':''
+'tenantId':'ZF_JGBM_000016',
+'JSESSIONID':'D4CE1E417E62E3C37EC34CF64954FDC3'
 }
 
 def Json2keyvalue(file):
@@ -66,7 +66,27 @@ def addExpertleaveOffset(offset):
 	resp=requests.post(url,Data,headers=headers,cookies=cookies)
 	##print(resp.headers)
 	return resp.text
+def autoSetCookies():
+#	headers=Json2keyvalue('logopage.json')
+#	url='http://zfcg.czt.fujian.gov.cn/gpms/'
+#	resp=requests.get(url,headers=headers)
+#	print(resp.cookies)
+	headers=Json2keyvalue('1.json')
+	##print(headers)
+	url='http://zfcg.czt.fujian.gov.cn/gpms/supplierReg/captcha?t=1672841466417'	
 
+	resp=requests.post(url,headers=headers)
+	with open('picture.jpg',"wb") as f:
+		f.write(resp.content)
+
+	res=image2str('picture.jpg')
+
+	print(res)
+	headers=Json2keyvalue('2.json')
+	url='http://zfcg.czt.fujian.gov.cn/gpms/user/logon'##未填写账户
+	form="""port=zfcg.czt.fujian.gov.cn&loginType=&username=&password=6182d67a0cde17c018912a67e1ea5a3b&orgRoleCode=3&checkcode="""+res+"""&checkcodeNone="""
+	resp=requests.post(url,form,headers=headers)
+	return resp.text
 	#with open('a.json',mode='w+') as f:
 	 #f.write(resp.text)
 	 #data = json.load(f)

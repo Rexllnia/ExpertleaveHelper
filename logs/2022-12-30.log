@@ -1,0 +1,117 @@
+[2022-12-30 23:08:17] [WARNING]: 虚拟设备信息不存在, 将自动生成随机设备. 
+[2022-12-30 23:08:25] [WARNING]: 登录需要滑条验证码, 请选择验证方式:  
+[2022-12-30 23:08:25] [WARNING]: 1. 使用浏览器抓取滑条并登录 
+[2022-12-30 23:08:25] [WARNING]: 2. 使用手机QQ扫码验证 (需要手Q和gocq在同一网络下). 
+[2022-12-30 23:08:25] [WARNING]: 请输入(1 - 2) (将在10秒后自动选择1)： 
+[2022-12-30 23:08:35] [WARNING]: 请前往该地址验证 -> https://captcha.go-cqhttp.org/captcha?id=hUQmRJKc&style=simple&aid=16&uin=1939735266&sid=7576998794935336681&cap_cd=fSfg4ioajEy12pQmjIHVh-9nB4zYbR4F6hFxYIHXa0O2rWdSwOBa1A**&clientype=1&apptype=2 
+[2022-12-30 23:08:37] [WARNING]: 获取 Ticket 时出现错误: Get "https://captcha.go-cqhttp.org/captcha/ticket?id=hUQmRJKc": read tcp 192.168.253.252:37654->172.67.213.155:443: read: connection reset by peer 
+[2022-12-30 23:08:50] [WARNING]: 登录需要滑条验证码, 请选择验证方式:  
+[2022-12-30 23:08:50] [WARNING]: 1. 使用浏览器抓取滑条并登录 
+[2022-12-30 23:08:50] [WARNING]: 2. 使用手机QQ扫码验证 (需要手Q和gocq在同一网络下). 
+[2022-12-30 23:08:50] [WARNING]: 请输入(1 - 2) (将在10秒后自动选择1)： 
+[2022-12-30 23:09:31] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:09:36] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:09:39] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:09:41] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:09:44] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:09:46] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:09:49] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:09:51] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:09:54] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:09:56] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:09:59] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:01] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:04] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:06] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:09] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:11] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:14] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:16] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:19] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:21] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:24] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:26] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:29] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:31] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:34] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:36] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:39] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:41] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:44] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:46] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:49] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:51] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:54] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:10:56] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:10:59] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:11:01] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:12:46] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:12:46] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:15:14] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:15:16] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:15:24] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:15:26] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:15:41] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:15:46] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:18:00] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:18:01] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:18:11] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:18:11] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:18:47] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:18:51] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:18:54] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:18:56] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:24:29] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:24:31] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:24:34] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:24:36] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:24:53] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:24:56] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:32:19] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:32:21] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:32:55] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:32:56] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:34:40] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:34:41] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:34:47] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:34:51] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:41:52] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:41:56] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:42:00] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:42:01] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:42:26] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:42:26] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:42:40] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:42:41] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:43:07] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:43:11] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:44:14] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:44:16] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:45:29] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:45:31] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:45:44] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:45:46] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:46:48] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:46:51] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:50:33] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:50:36] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:50:39] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:50:41] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:51:00] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:51:01] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:51:04] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:51:06] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:51:17] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:51:21] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:51:46] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:51:51] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:52:29] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:52:31] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:52:44] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:52:46] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:52:51] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:52:51] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:56:59] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:57:01] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2022-12-30 23:57:14] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1000 (normal) 
+[2022-12-30 23:57:16] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 

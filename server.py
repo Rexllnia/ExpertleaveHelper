@@ -14,12 +14,13 @@ async def qqbot(request,ws):
 		print(json.dumps(data))
 		if data.get('message_type')=='private' and data.get('raw_message'):
 			raw_message =data['raw_message']
+			user_id=data['user_id']
 			if mode==1:
 				if raw_message=='5':			
 					leaveid=getExpertleaveid()
 					ret = {'action':'send_private_msg',
 						'params':{
-							'user_id':328626536,
+							'user_id':user_id,
 							'message':leaveid
 						} 
 					}
@@ -27,7 +28,7 @@ async def qqbot(request,ws):
 					msg=deleteExpertLeave(leaveid)[0]
 					ret = {'action':'send_private_msg',
 						'params':{
-							'user_id':328626536,
+							'user_id':user_id,
 							'message':msg
 						} 
 					}
@@ -35,11 +36,22 @@ async def qqbot(request,ws):
 					await ws.send(json.dumps(ret))
 					raw_message = ''	
 					mode=0
+				elif raw_message =='6':
+					msg=autoSetCookies()
+					ret = {'action':'send_private_msg',
+						'params':{
+							'user_id':user_id,
+							'message':msg
+						} 
+					}
+					await ws.send(json.dumps(ret))
+					raw_message = ''	
+					mode=1
 				else:
 					msg='当前请假未作废 发送5作废'
 					ret = {'action':'send_private_msg',
 						'params':{
-							'user_id':328626536,
+							'user_id':user_id,
 							'message':msg
 						} 
 					}
@@ -52,7 +64,7 @@ async def qqbot(request,ws):
 					msg=addExpertleaveOffset(1)
 					ret = {'action':'send_private_msg',
 						'params':{
-							'user_id':328626536,
+							'user_id':user_id,
 							'message':msg
 						} 
 					}
@@ -64,7 +76,7 @@ async def qqbot(request,ws):
 					msg=addExpertleaveOffset(2)
 					ret = {'action':'send_private_msg',
 						'params':{
-							'user_id':328626536,
+							'user_id':user_id,
 							'message':msg
 						} 
 					}
@@ -75,7 +87,7 @@ async def qqbot(request,ws):
 					msg=addExpertleaveOffset(3)
 					ret = {'action':'send_private_msg',
 						'params':{
-							'user_id':328626536,
+							'user_id':user_id,
 							'message':msg
 						} 
 					}
@@ -86,20 +98,31 @@ async def qqbot(request,ws):
 					msg=addExpertleaveOffset(3)
 					ret = {'action':'send_private_msg',
 						'params':{
-							'user_id':328626536,
+							'user_id':user_id,
 							'message':msg
 						} 
 					}
 					await ws.send(json.dumps(ret))
 					raw_message = ''	
 					mode=1
+				elif raw_message =='6':
+					msg=autoSetCookies()
+					ret = {'action':'send_private_msg',
+						'params':{
+							'user_id':user_id,
+							'message':msg
+						} 
+					}
+					await ws.send(json.dumps(ret))
+					raw_message = ''	
+					mode=0				
 				else:
 					mode=0
-					msg='选择请假时间\n1请假1小时\n2请假2小时\n3请假3小时\n4请假4小时\n5请假作废'
+					msg='选择请假时间\n1请假1小时\n2请假2小时\n3请假3小时\n4请假4小时\n5请假作废\n6重登'
 				#msg=addExpertleave("2022","12","26","1","17")
 					ret = {'action':'send_private_msg',
 						'params':{
-							'user_id':328626536,
+							'user_id':user_id,
 							'message':msg
 						} 
 					}
