@@ -18,10 +18,6 @@
 				"value": "keep-alive"
 			},
 			{
-				"name": "Cookie",
-				"value": "JSESSIONID=D4CE1E417E62E3C37EC34CF64954FDC3; tenantId=ZF_JGBM_000016"
-			},
-			{
 				"name": "Host",
 				"value": "zfcg.czt.fujian.gov.cn"
 			},

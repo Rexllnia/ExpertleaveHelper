@@ -75,7 +75,12 @@ def autoSetCookies():
 	##print(headers)
 	url='http://zfcg.czt.fujian.gov.cn/gpms/supplierReg/captcha?t=1672841466417'	
 
-	resp=requests.post(url,headers=headers)
+	resp=requests.post(url,headers=headers,cookies=cookies)
+	new_cookies=requests.utils.dict_from_cookiejar(resp.cookies)
+	print(cookies)
+	
+	cookies.update(new_cookies)
+	print(cookies)
 	with open('picture.jpg',"wb") as f:
 		f.write(resp.content)
 
@@ -84,8 +89,8 @@ def autoSetCookies():
 	print(res)
 	headers=Json2keyvalue('2.json')
 	url='http://zfcg.czt.fujian.gov.cn/gpms/user/logon'##未填写账户
-	form="""port=zfcg.czt.fujian.gov.cn&loginType=&username=&password=6182d67a0cde17c018912a67e1ea5a3b&orgRoleCode=3&checkcode="""+res+"""&checkcodeNone="""
-	resp=requests.post(url,form,headers=headers)
+	form="""port=zfcg.czt.fujian.gov.cn&loginType=&username=350102197112290533&password=6182d67a0cde17c018912a67e1ea5a3b&orgRoleCode=3&checkcode="""+res+"""&checkcodeNone="""
+	resp=requests.post(url,form,headers=headers,cookies=cookies)
 	return resp.text
 	#with open('a.json',mode='w+') as f:
 	 #f.write(resp.text)

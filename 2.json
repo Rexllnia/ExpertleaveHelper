@@ -30,10 +30,6 @@
 				"value": "application/x-www-form-urlencoded; charset=UTF-8"
 			},
 			{
-				"name": "Cookie",
-				"value": "JSESSIONID=D4CE1E417E62E3C37EC34CF64954FDC3; tenantId=ZF_JGBM_000016"
-			},
-			{
 				"name": "Host",
 				"value": "zfcg.czt.fujian.gov.cn"
 			},
