@@ -1,8 +1,6 @@
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
 from PIL import Image
-import pytesseract
 import ddddocr                       # 导入 ddddocr
 
 def image2str(path):
