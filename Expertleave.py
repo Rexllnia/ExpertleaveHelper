@@ -2,25 +2,33 @@ import requests
 import json
 import re
 import datetime 
-import sys
+import js2py
 from time import strftime
 from image2str import *
+import threading
 cookies = {
 'tenantId':'ZF_JGBM_000016',
-'JSESSIONID':'D4CE1E417E62E3C37EC34CF64954FDC3'
+'JSESSIONID':'D4CE1E417E62E3C37EC34CF64954FDC3',
+'logoContent':'', 
+'iconUrl':'',
+'logoUrl':'', 
+'__session:sessionID:':'https:',
+'regionCode':'350001',
+'the_codes':'350001',
+'the_codesIndex':'%E7%A6%8F%E5%BB%BA%E7%9C%81%E6%9C%AC%E7%BA%A7', 
+'is_read':'1', 
+'AUTH_SESSION_ID':'ZTYyODQwYjgtNDhmZS00NjVjLThkYmYtZmQ5OWUyMDNlZjNi',
+'levelnum':'1'
 }
 
 def Json2keyvalue(file):
-	with open(file) as f:
+	with open(file,encoding='utf-8') as f:
 	  data = json.load(f)
-	  
 	str1=re.findall("(?<=\[').*?(?='\])",str(data.keys()))
 	print(str1[0])
 	data=data[str1[0]]
 	a=data['headers']
 	headers={a[0]['name']:a[0]['value']} 
-
-	
 	for i in range(1,len(a)):
 		temp={a[i]['name']:a[i]['value']}
 		headers.update(temp)
@@ -31,6 +39,7 @@ def getExpertleaveid():
 	headers=Json2keyvalue('getExpertleaveidHeaders.json')
 	resp=requests.post(url,form,headers=headers,cookies=cookies)
 	text=json.loads(resp.text)
+	
 	List=[]
 	for i in range(0,20):
 		List.append(text['aaData'][i]['leaveid'])
@@ -97,9 +106,12 @@ def autoSetCookies():
 	 #data = json.load(f)
 	#print(data)
 #addExpertleaveOffset(3)
-
+autoSetCookies()
 #if sys.argv[1] is "0":
 #print(addExpertleave("2022","12","26","1","17"))##请假申请 直到2022年12月26日1时17分为止
 #if sys.argv[1] is "1":
-	#leaveid=getExpertleaveid()
-	#deleteExpertLeave(leaveid)
+#print(autoSetCookies())
+leaveid=getExpertleaveid()
+print(deleteExpertLeave(leaveid))
+# log=js2py.eval_js(open('./123.js','r',encoding='utf-8').read())
+# print(log)
