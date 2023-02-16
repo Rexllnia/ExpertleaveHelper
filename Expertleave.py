@@ -98,7 +98,7 @@ def autoSetCookies():
 	print(res)
 	headers=Json2keyvalue('2.json')
 	url='http://zfcg.czt.fujian.gov.cn/gpms/user/logon'##未填写账户
-	form="""port=zfcg.czt.fujian.gov.cn&loginType=&username=350102197112290533&password=6182d67a0cde17c018912a67e1ea5a3b&orgRoleCode=3&checkcode="""+res+"""&checkcodeNone="""
+	form="""port=zfcg.czt.fujian.gov.cn&loginType=&username=&password=6182d67a0cde17c018912a67e1ea5a3b&orgRoleCode=3&checkcode="""+res+"""&checkcodeNone="""
 	resp=requests.post(url,form,headers=headers,cookies=cookies)
 	return resp.text
 	#with open('a.json',mode='w+') as f:
